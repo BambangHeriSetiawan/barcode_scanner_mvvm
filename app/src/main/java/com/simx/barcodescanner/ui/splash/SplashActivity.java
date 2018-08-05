@@ -1,15 +1,14 @@
 package com.simx.barcodescanner.ui.splash;
 
-import android.annotation.SuppressLint;
+
 import android.os.Handler;
-import android.os.PersistableBundle;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import androidx.databinding.DataBindingUtil;
 import androidx.lifecycle.ViewModelProviders;
 import com.simx.barcodescanner.R;
 import com.simx.barcodescanner.databinding.SplashActivityBinding;
-import com.simx.barcodescanner.ui.home.HomeActivity;
+
 
 public class SplashActivity extends AppCompatActivity {
 

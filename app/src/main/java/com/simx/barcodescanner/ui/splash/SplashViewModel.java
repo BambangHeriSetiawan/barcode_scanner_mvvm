@@ -4,7 +4,6 @@ import androidx.databinding.Observable;
 import androidx.databinding.PropertyChangeRegistry;
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.ViewModel;
-import com.simx.barcodescanner.BR;
 import com.simx.barcodescanner.BuildConfig;
 
 public class SplashViewModel extends ViewModel implements Observable {
