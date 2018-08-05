@@ -71,4 +71,20 @@ dependencies {
     // (Optional) If you also have JUnit 4-based tests
     testImplementation "junit:junit:4.12"
     testRuntimeOnly "org.junit.vintage:junit-vintage-engine:5.2.0"
+
+
+    // RxJava2
+    implementation 'io.reactivex.rxjava2:rxandroid:2.0.2'
+    implementation 'io.reactivex.rxjava2:rxjava:2.1.16'
+
+    // Retrofit
+    implementation 'com.squareup.retrofit2:retrofit:2.4.0'
+    implementation 'com.squareup.retrofit2:converter-moshi:2.3.0'
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.4.0'
+
+    // Logging
+    implementation 'com.jakewharton.timber:timber:4.6.0'
+
+
+
 }
