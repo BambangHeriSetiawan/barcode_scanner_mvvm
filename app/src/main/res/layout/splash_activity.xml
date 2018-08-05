@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+  <data>
+    <variable
+      name="svm"
+      type="com.simx.barcodescanner.ui.splash.SplashViewModel"/>
+  </data>
+  <androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".ui.splash.SplashActivity">
+    <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+      <TextView
+        android:textColor="@android:color/white"
+        android:textSize="24dp"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+      <TextView
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:text="@{svm.version}"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    </RelativeLayout>
+  </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</layout>
